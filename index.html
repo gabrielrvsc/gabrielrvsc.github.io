@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.............</p>
-</body>
+   
+   <head>
+      <title>HTML Frames</title>
+   </head>
+   
+   <frameset cols = "25%,75%">
+      <frame name = "left" src = "/html/top_frame.htm" />
+      <frame name = "center" src = "https://insightdataanalysis.shinyapps.io/nowcast/" />
+      
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+   </frameset>
+   
 </html>
